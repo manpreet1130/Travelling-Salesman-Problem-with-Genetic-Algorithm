@@ -1,8 +1,16 @@
 # Travelling-Salesman-Problem-with-Genetic-Algorithm
 The Travelling Salesman Problem(TSP) solved using Genetic Algorithm.
 
-## Table of Contents
 
+## Table of Contents
+1. [Random Outputs](#random-outputs)
+2. [General Info](#general-info)
+3. [Installations](#installations)
+
+## Random Outputs
+<figure>
+  <img src = "images/8.png" title = "8 Destinations, Population : 100"/>
+ </figure>
 
 ## General Info
 ### What is the TSP?
@@ -18,3 +26,10 @@ It turns out, above a certain number of destinations, the computational complexi
 <p align = "center"><img align = "center" src = "explanation.png"/></p>
 It turns out the possible routes for n destinations is **(n-1)! / 2**.  So between 10 cities there are 181,440 possible routes. Between 20 cities, there are 60,822,550,204,416,000 routes.
 Using GAs, we'll only be looking at the "best routes" in each generation and creating offsprings based on these routes via crossover. After some time, this will converge to a single best route which will be, in other words, the shortest path between all the destinations. 
+
+### Installations
+The animation is built using PyGame.
+Python version : 3.5.2
+PyGame version : 1.9.6
+
+
