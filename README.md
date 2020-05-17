@@ -1,6 +1,6 @@
 # Travelling-Salesman-Problem-with-Genetic-Algorithm
-The Travelling Salesman Problem(TSP) solved using Genetic Algorithm.
-
+The Travelling Salesman Problem(TSP) solved using Genetic Algorithm.  
+A sample output with 25 destinations and a population of 5000 per generation :
 <p align = "center"><img align = "center" src = "images/25pop5000.png" width = 400 height = 400/></p>
 
 ## Table of Contents
@@ -23,7 +23,7 @@ It turns out the possible routes for n destinations is **(n-1)! / 2**.  So betwe
 Using GAs, we'll only be looking at the "best routes" in each generation and creating offsprings based on these routes via crossover. After some time, this will converge to a single best route which will be, in other words, the shortest path between all the destinations. 
 
 ## Installations
-The animation is built using PyGame (1.9.6).
+The animation is built using PyGame (1.9.6).  
 Python version : 3.5.2
 
 
