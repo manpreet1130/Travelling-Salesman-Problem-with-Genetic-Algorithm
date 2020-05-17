@@ -14,5 +14,7 @@ It then tries to see how well these solutions solve the problem, using a given *
 The idea is that, over time, an attempted solution emerges that has a high enough fitness value to solve the problem.
 
 ### Why the use of GAs to solve TSP?
-It turns out, above a certain number of destinations, the computational complexity gets too much even for today’s supercomputers. When there are two or three destinations, there’s only one possible route. Add a fourth destination, and it could be visited between any of the previous three, so multiply the previous number of routes by 3. It turns out the possible routes for n destinations is **(n-1)! / 2**.  So between 10 cities there are 181,440 possible routes. Between 20 cities, there are 60,822,550,204,416,000 routes.
+It turns out, above a certain number of destinations, the computational complexity gets too much even for today’s supercomputers. When there are two or three destinations, there’s only one possible route. Add a fourth destination, and it could be visited between any of the previous three, so multiply the previous number of routes by 3. 
+<p align = "center"><img align = "center" src = "explanation.png"/></p>
+It turns out the possible routes for n destinations is **(n-1)! / 2**.  So between 10 cities there are 181,440 possible routes. Between 20 cities, there are 60,822,550,204,416,000 routes.
 Using GAs, we'll only be looking at the "best routes" in each generation and creating offsprings based on these routes via crossover. After some time, this will converge to a single best route which will be, in other words, the shortest path between all the destinations. 
