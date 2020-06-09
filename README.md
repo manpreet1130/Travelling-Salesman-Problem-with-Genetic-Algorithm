@@ -1,5 +1,5 @@
 # Travelling-Salesman-Problem-with-Genetic-Algorithm
-The Travelling Salesman Problem(TSP) solved using Genetic Algorithm.  
+The Travelling Salesman Problem(TSP) solved using Genetic Algorithms.  
 A sample output with 25 destinations and a population of 5000 per generation :
 <p align = "center"><img align = "center" src = "images/25pop5000.png" width = 400 height = 400/></p>
 
